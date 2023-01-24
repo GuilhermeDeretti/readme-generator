@@ -1,44 +1,31 @@
-# readme-generator  
-  
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+# README Generator
+A command-line application that generates a professional README file for your project. The application uses the answers to a series of prompts to generate a README file in the markdown format. This README file can be easily added to your Github repository to give your project a more polished and professional appearance.
 
+## Getting Started
+Clone the repository to your local machine
+Run npm install to install the required dependencies
+Run node index.js to start the application
+Answer the prompted questions about your project
+A README.md file will be generated in the root directory of your project
 
-  ## Description  
+## Features
+* The application prompts the user with a series of questions about their project, including the title, description, installation instructions, usage example, and more.
+* The application uses the user's answers to generate a professional README file in the markdown format.
+* The application also includes a section for the user to select a license for their project, and will automatically generate a badge for the selected license.
+* The application also includes a section for the user to describe how developers can make contributions to the project.
+* The application also includes a section for the user to describe how to run tests on the project.
 
-  project for autogeneranting a professional readme using node
-  
-  ## Table of Contents
-  
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [How to Contribute](#how-to-contribute)  
-  - [Tests](#tests) 
-  - [Questions](#questions)
-  
-  ## Installation
-  
-  n/a
-  
-  ## Usage
-  
-  run index on node after installing all packages
-      
-  ## License
-  
-  MIT
-  
-  ## How to Contribute
+## Dependencies
+This application uses the following npm packages:
 
-  mail me
-  
-  ## Tests
-  
-  run node
+fs to handle file I/O operations
+inquirer to prompt the user with questions
+path to handle file paths
+* The application also utilizes a generateMarkdown module that is used to generate the markdown content for the README file.
 
-  ## Questions
+## Customization
+* The questions asked in the application can be easily customized to fit the specific needs of your project.
+* The generateMarkdown module can be modified to include any additional sections or information that you want to include in your README file.
 
-  Check my [GitHub](https://github.com/GuilhermeDeretti)  
-  Or write me on Guilhermederetti9@gmail.com
-
-  ---
+## License
+This application is licensed under the MIT License. See the LICENSE file for details.
