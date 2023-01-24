@@ -26,10 +26,10 @@ const questions = [
         name: 'usage',
     },
     {
-        type: 'input',
+        type: 'list',
         message: 'Licence:',
         name: 'license',
-        default: 'MIT',
+        choices: ['MIT','Mozilla', 'Apache 2.0 License', 'The Unlicense', 'None'],
     },
     {
         type: 'input',
@@ -43,14 +43,19 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Contact for Questions:',
-        name: 'question',
-    }    
+        message: 'your Github Username for Questions section:',
+        name: 'gitHub',
+    },
+    {
+        type: 'input',
+        message: 'Your Email for Questions section:',
+        name: 'email',
+    }       
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.appendFile(fileName, generateMarkdown(data), (err) =>
+    fs.writeFile(fileName, generateMarkdown(data), (err) =>
     err ? console.error(err) : console.log('Your README has been created!')
 );        
 }
@@ -62,7 +67,3 @@ function init() {
 
 // function call to initialize program
 init();
-
-//TODO: When a user chooses a license for their application from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-//TODO: When a user enters their GitHub username then this is added to the section of the README entitled Questions, with a link to their GitHub profile
-//TODO: When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions

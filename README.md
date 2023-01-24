@@ -1,8 +1,11 @@
-# test readme
-
-  ## Description
+# readme-generator  
   
-  project for creating a readme using node
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+
+
+  ## Description  
+
+  project for autogeneranting a professional readme using node
   
   ## Table of Contents
   
@@ -15,13 +18,11 @@
   
   ## Installation
   
-  install node, install the modules, run
+  n/a
   
   ## Usage
   
-  create your readme by answering the questions
-  
-  //![alt text](assets/images/screenshot.png)
+  run index on node after installing all packages
       
   ## License
   
@@ -29,15 +30,15 @@
   
   ## How to Contribute
 
-  contactme@gmail.com
-  
+  mail me
   
   ## Tests
   
-  N/A
+  run node
 
   ## Questions
 
-  contactme@gmail.com
+  Check my [GitHub](https://github.com/GuilhermeDeretti)  
+  Or write me on Guilhermederetti9@gmail.com
 
   ---
