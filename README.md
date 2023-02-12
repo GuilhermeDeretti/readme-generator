@@ -1,5 +1,10 @@
 # README Generator
+
+## Description
 A command-line application that generates a professional README file for your project. The application uses the answers to a series of prompts to generate a README file in the markdown format. This README file can be easily added to your Github repository to give your project a more polished and professional appearance.
+
+## Usage
+Follow the link to check a video on how to use it: https://drive.google.com/file/d/1i0mgDavdDGTj6dJ-KYy1n1kYJKS-HG9N/view?usp=sharing
 
 ## Getting Started
 Clone the repository to your local machine
@@ -29,3 +34,5 @@ path to handle file paths
 
 ## License
 This application is licensed under the MIT License. See the LICENSE file for details.
+
+## 
